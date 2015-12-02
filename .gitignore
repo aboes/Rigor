@@ -1,0 +1,7 @@
+# Ignored Folders
+
+data_generation/
+
+# Ignored Files
+
+setup.py
