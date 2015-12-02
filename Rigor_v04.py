@@ -247,9 +247,16 @@ class QuizPage(tk.Frame):
     
     def help2(self, fL):
         h_len = len(self.korpus[self.qnum]["feld_2"])
-        dots = fL + "*" * (h_len - 1)
+        lösung = self.korpus[self.qnum]["feld_2"]
+        lösung = lösung.split()
+        ldot = []
+        for i in lösung:
+            i = "*" * len(i)
+            ldot.append(i)
+        dots = " ".join(ldot)
+        dots = fL + dots[1:]
+        
         self.useranswer.set(dots)
-        self.entry_answ.focus_set()
         if fL == "":
             self.entry_answ.icursor(0)
         else:
@@ -262,7 +269,6 @@ class QuizPage(tk.Frame):
             
             if self.korpus[self.qnum]["help"] == 0:
                 self.useranswer.set(firstLetter)
-                self.entry_answ.focus_set()
                 self.entry_answ.icursor(1)
         else:
             firstLetter = ""
@@ -274,6 +280,7 @@ class QuizPage(tk.Frame):
                 self.help2(firstLetter)
                 
         self.korpus[self.qnum]["help"] += 1
+        self.entry_answ.focus_set()
 
     def check(self, uinput, solution):
         if self.options[0] == 1:
@@ -306,9 +313,10 @@ class QuizPage(tk.Frame):
                 self.korpus[self.qnum]["level"] -= 1
                 
             self.korpus[self.qnum]["verlauf"].append( [time(), 0] )
-            self.symbol_count += 1
-            symbol = "●" * self.symbol_count
-            self.pindicate.set(symbol)
+            if self.modus == "2":
+                self.symbol_count += 1
+                symbol = "●" * self.symbol_count
+                self.pindicate.set(symbol)
                 
     def nextquestion(self):
         switch = self.modus
@@ -398,7 +406,7 @@ class QuizPage(tk.Frame):
         savefile(fname, korpus)        
 
     def save_patience(self):
-        self.korpus = [item for sublist in self.patience for item in sublist]
+        self.korpus = [item for sublist in self.patience for item in sublist]  # Listcomprehension um self.patience zu flatten
         self.save_korpus()
         
     def checkkey(self, event):
