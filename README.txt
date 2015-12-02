@@ -28,7 +28,7 @@ I. Inhalt
 #-----------------------------------------------------------------------------------------------------
 1. Wie startet man "Alex' Rigor"?
 
-    * Ein Doppelklick auf die Datei "Rigor_v03.pyw" ist eine Möglichkeit.
+    * Ein Doppelklick auf die Datei "Rigor_v04.pyw" ist eine Möglichkeit.
     
     * Unter Punkt 3. findet sich eine Übersicht auf der ersichtlich ist, wo sich diese Datei befindet.
 
@@ -55,16 +55,17 @@ I. Inhalt
 
     /-Rigor_v03-/-+
                   +- README.txt
-                  +- Rigor_v03.pyw
+                  +- README_2.txt
+                  +- Rigor_v04.pyw
                   +
                   +-/-data-/-+
                   +          +- Hauptstädte.korp
                   +
-                  +-/-data_generation-/-+
+                [ +-/-data_generation-/-+
                   +                     +- ANLEITUNG.txt
                   +                     +- csv2json.py
                   +                     +- DATA.ods
-                  +                     +- Hauptstädte.csv
+                  +                     +- Hauptstädte.csv ]  # Ordner nicht auf GitHub
                   +
                   +-/-varia-/-+
                               +- options.opt
