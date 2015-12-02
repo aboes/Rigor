@@ -153,12 +153,14 @@ class OptionsPage(tk.Frame):
         self.cvar_capit = tk.IntVar()
         self.cvar_help1 = tk.IntVar()
         self.cvar_help2 = tk.IntVar()
+        self.cvar_alter = tk.IntVar()
         self.cvar_time = tk.IntVar()
         
         self.cvar_capit.set(self.options[0])
         self.cvar_help1.set(self.options[1])
         self.cvar_help2.set(self.options[2])
-        self.cvar_time.set(self.options[3])
+        self.cvar_alter.set(self.options[3])
+        self.cvar_time.set(self.options[4])
         
         check_capit = ttk.Checkbutton(self, text="Grossschreibung ignorieren", variable=self.cvar_capit, width=35)
         check_capit.pack()
@@ -166,6 +168,8 @@ class OptionsPage(tk.Frame):
         check_help1.pack()
         check_help2 = ttk.Checkbutton(self, text="2. Hilfe: Anzahl Buchstaben anzeigen", variable=self.cvar_help2, width=35)
         check_help2.pack()
+        check_alter = ttk.Checkbutton(self, text="Alternative Schreibungen zulassen", variable=self.cvar_alter, width=35, state=tk.DISABLED)
+        check_alter.pack()
         check_time = ttk.Checkbutton(self, text="Zeitbeschränkung (5 Sekunden)", variable=self.cvar_time, width=35, state=tk.DISABLED)
         check_time.pack()
         
@@ -177,8 +181,9 @@ class OptionsPage(tk.Frame):
         tmp1 = self.cvar_capit.get()
         tmp2 = self.cvar_help1.get()
         tmp3 = self.cvar_help2.get()
-        tmp4 = self.cvar_time.get()
-        self.options = [tmp1, tmp2, tmp3, tmp4]
+        tmp4 = self.cvar_alter.get()
+        tmp5 = self.cvar_time.get()
+        self.options = [tmp1, tmp2, tmp3, tmp4, tmp5]
         savefile("varia/options.opt", self.options)
         self.controller.show_frame(StartPage)
         
@@ -198,7 +203,7 @@ class QuizPage(tk.Frame):
         self.korpus = []
         self.patience = []
         
-        self.qrounds = 0
+        self.qrounds = 0346
         self.k_len = 0
         self.grps = 0
         self.qnum = 0
