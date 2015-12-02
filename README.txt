@@ -1,4 +1,4 @@
-v0.1 2015-11-30 ab
+v0.2 2015-12-02 ab
 #====================================================================================================#
    README - Willkommen zu "Alex' Rigor"
 #====================================================================================================#
@@ -28,7 +28,7 @@ I. Inhalt
 #-----------------------------------------------------------------------------------------------------
 1. Wie startet man "Alex' Rigor"?
 
-    * Ein Doppelklick auf die Datei "Rigor_v04.pyw" ist eine Möglichkeit.
+    * Ein Doppelklick auf die Datei "Rigor_v04.py" ist eine Möglichkeit.
     
     * Unter Punkt 3. findet sich eine Übersicht auf der ersichtlich ist, wo sich diese Datei befindet.
 
@@ -56,7 +56,7 @@ I. Inhalt
     /-Rigor_v03-/-+
                   +- README.txt
                   +- README_2.txt
-                  +- Rigor_v04.pyw
+                  +- Rigor_v04.py
                   +
                   +-/-data-/-+
                   +          +- Hauptstädte.korp
