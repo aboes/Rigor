@@ -168,7 +168,7 @@ class OptionsPage(tk.Frame):
         check_help1.pack()
         check_help2 = ttk.Checkbutton(self, text="2. Hilfe: Anzahl Buchstaben anzeigen", variable=self.cvar_help2, width=35)
         check_help2.pack()
-        check_alter = ttk.Checkbutton(self, text="Alternative Schreibungen zulassen", variable=self.cvar_alter, width=35, state=tk.DISABLED)
+        check_alter = ttk.Checkbutton(self, text="Alternative Schreibungen zulassen", variable=self.cvar_alter, width=35)
         check_alter.pack()
         check_time = ttk.Checkbutton(self, text="Zeitbeschränkung (5 Sekunden)", variable=self.cvar_time, width=35, state=tk.DISABLED)
         check_time.pack()
@@ -203,7 +203,7 @@ class QuizPage(tk.Frame):
         self.korpus = []
         self.patience = []
         
-        self.qrounds = 0346
+        self.qrounds = 0
         self.k_len = 0
         self.grps = 0
         self.qnum = 0
@@ -287,11 +287,19 @@ class QuizPage(tk.Frame):
         self.korpus[self.qnum]["help"] += 1
         self.entry_answ.focus_set()
 
-    def check(self, uinput, solution):
+    def check(self, uinput, solution, alternative):
         if self.options[0] == 1:
-            answ = uinput.lower() == solution.lower()
+            uinput = uinput.lower()
+            solution = solution.lower()
+            alternative = alternative.lower()
+
+        if self.options[3] == 1:
+            answ1 = uinput == solution 
+            answ2 = uinput == alternative
+            answ = answ1 or answ2
         else:
             answ = uinput == solution
+        
         return answ
             
     def checkanswer(self):
@@ -300,7 +308,9 @@ class QuizPage(tk.Frame):
         self.but_next.config(state=tk.NORMAL)
         ua = self.useranswer.get()
         ka = self.korpus[self.qnum]["feld_2"]
-        answ = self.check(ua, ka)
+        al = self.korpus[self.qnum]["alt_2"]
+        print(al)
+        answ = self.check(ua, ka, al)
         if answ:
             self.response.set(self.korpus[self.qnum]["feld_2"] + " ist richtig!")
             self.indicator.configure(bg="green")
