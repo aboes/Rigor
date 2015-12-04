@@ -291,11 +291,11 @@ class QuizPage(tk.Frame):
         if self.options[0] == 1:
             uinput = uinput.lower()
             solution = solution.lower()
-            alternative = alternative.lower()
+            alternative = [x.lower() for x in alternative]
 
         if self.options[3] == 1:
             answ1 = uinput == solution 
-            answ2 = uinput == alternative
+            answ2 = uinput in alternative  # alternative ist eine Liste. Prüfung: Ist Antwort in Liste vorhanden?
             answ = answ1 or answ2
         else:
             answ = uinput == solution
@@ -309,7 +309,7 @@ class QuizPage(tk.Frame):
         ua = self.useranswer.get()
         ka = self.korpus[self.qnum]["feld_2"]
         al = self.korpus[self.qnum]["alt_2"]
-        if al != "": print(al)
+        if al[0] != "": print(al)
         
         answ = self.check(ua, ka, al)
         if answ:
