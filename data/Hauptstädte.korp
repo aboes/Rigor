@@ -3,948 +3,555 @@
         "subset": {
             "data": [
                 {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Dänemark",
-                    "feld_2": "Kopenhagen",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001909.47044,
-                            1
-                        ],
-                        [
-                            1449005545.841866,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Kasachstan",
-                    "feld_2": "Astana",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001883.979995,
-                            1
-                        ],
-                        [
-                            1449005547.136668,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "San Marino",
-                    "feld_2": "San Marino",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001914.805649,
-                            1
-                        ],
-                        [
-                            1449005547.97907,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Portugal",
-                    "feld_2": "Lissabon",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001831.719903,
-                            1
-                        ],
-                        [
-                            1449005176.375818,
-                            1
-                        ],
-                        [
-                            1449005180.837426,
-                            0
-                        ],
-                        [
-                            1449005370.347559,
-                            0
-                        ],
-                        [
-                            1449005549.554672,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "Nur teilweise in Europa; Hauptstadt in Asien.",
-                    "feld_1": "Türkei",
-                    "feld_2": "Ankara",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001918.471656,
-                            1
-                        ],
-                        [
-                            1449005540.553457,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Lettland",
-                    "feld_2": "Riga",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001938.782891,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Albanien",
-                    "feld_2": "Tirana",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001943.509699,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Schweiz",
-                    "feld_2": "Bern",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001880.157988,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Ukraine",
-                    "feld_2": "Kiew",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001833.467106,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "Kischiniew",
-                    "bemerkung": "",
-                    "feld_1": "Moldawien",
-                    "feld_2": "Chisinau",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1448999357.068295,
-                            0
-                        ],
-                        [
-                            1449001876.195581,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Mazedonien",
-                    "feld_2": "Skopje",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001905.445633,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Litauen",
-                    "feld_2": "Vilnius",
-                    "help": 0,
-                    "level": 2,
-                    "verlauf": [
-                        [
-                            1448999345.586675,
-                            0
-                        ],
-                        [
-                            1449001837.164313,
-                            1
-                        ],
-                        [
-                            1449001857.506748,
-                            1
-                        ],
-                        [
-                            1449005130.511737,
-                            0
-                        ],
-                        [
-                            1449005144.676562,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Österreich",
-                    "feld_2": "Wien",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001779.163812,
-                            1
-                        ],
-                        [
-                            1449005152.336176,
-                            1
-                        ],
-                        [
-                            1449005162.538594,
-                            1
-                        ],
-                        [
-                            1449005492.817373,
-                            0
-                        ],
-                        [
-                            1449005541.723459,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Irland",
-                    "feld_2": "Dublin",
-                    "help": 0,
-                    "level": 3,
-                    "verlauf": [
-                        [
-                            1449001902.044827,
-                            1
-                        ],
-                        [
-                            1449005089.951666,
-                            1
-                        ],
-                        [
-                            1449005107.205297,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Bulgarien",
-                    "feld_2": "Sofia",
-                    "help": 0,
-                    "level": 3,
-                    "verlauf": [
-                        [
-                            1449001787.494226,
-                            1
-                        ],
-                        [
-                            1449005114.022508,
-                            1
-                        ],
-                        [
-                            1449005141.010556,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Deutschland",
-                    "feld_2": "Berlin",
-                    "help": 0,
-                    "level": 3,
-                    "verlauf": [
-                        [
-                            1449001887.926802,
-                            1
-                        ],
-                        [
-                            1449005157.671385,
-                            1
-                        ],
-                        [
-                            1449005166.641401,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Finnland",
-                    "feld_2": "Helsinki",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001805.823858,
-                            1
-                        ],
-                        [
-                            1449001817.180678,
-                            1
-                        ],
-                        [
-                            1449005387.757189,
-                            0
-                        ],
-                        [
-                            1449005532.550643,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Frankreich",
-                    "feld_2": "Paris",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001889.798805,
-                            1
-                        ],
-                        [
-                            1449005178.481822,
-                            0
-                        ],
-                        [
-                            1449005182.459829,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Ungarn",
-                    "feld_2": "Budapest",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001763.735385,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "Eigentlich Asien; wird traditionell zu Europa gezählt.",
-                    "feld_1": "Zypern",
-                    "feld_2": "Nikosia",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001878.707186,
-                            1
-                        ],
-                        [
-                            1449005385.807186,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "Nur teilweise in Europa; Hauptstadt in Europa.",
-                    "feld_1": "Russland",
-                    "feld_2": "Moskau",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001793.313037,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Malta",
-                    "feld_2": "Valletta",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001896.272817,
-                            1
-                        ],
-                        [
-                            1449005132.773741,
-                            0
-                        ],
-                        [
-                            1449005148.248969,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Serbien",
-                    "feld_2": "Belgrad",
-                    "help": 0,
-                    "level": 3,
-                    "verlauf": [
-                        [
-                            1449001945.927704,
-                            1
-                        ],
-                        [
-                            1449005093.742473,
-                            1
-                        ],
-                        [
-                            1449005111.323704,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Polen",
-                    "feld_2": "Warschau",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001929.828475,
-                            1
-                        ],
-                        [
-                            1449005160.58859,
-                            0
-                        ],
-                        [
-                            1449005169.652206,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Griechenland",
-                    "feld_2": "Athen",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001781.176215,
-                            1
-                        ],
-                        [
-                            1449005172.819012,
-                            1
-                        ],
-                        [
-                            1449005179.651824,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Vatikanstadt",
-                    "feld_2": "Vatikanstadt",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001948.829309,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Island",
-                    "feld_2": "Reykjavik",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001808.600663,
-                            0
-                        ],
-                        [
-                            1449001821.891886,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Italien",
-                    "feld_2": "Rom",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001891.249608,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Rumänien",
-                    "feld_2": "Bukarest",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001770.864597,
-                            1
-                        ],
-                        [
-                            1449005493.191773,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Slowakei",
-                    "feld_2": "Bratislava",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001853.809542,
-                            1
-                        ],
-                        [
-                            1449001872.950776,
-                            1
-                        ],
-                        [
-                            1449005371.377161,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "Hauptstadt ehemals „Titograd“",
-                    "feld_1": "Montenegro",
-                    "feld_2": "Podgorica",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001927.067271,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Estland",
-                    "feld_2": "Tallin",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001766.59019,
-                            1
-                        ],
-                        [
-                            1449005386.821188,
-                            0
-                        ],
-                        [
-                            1449005492.458572,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "Wird traditionell zu Europa gezählt; eigentlich höchstens Nordflanken des Kaukasus in Europa. ",
-                    "feld_1": "Georgien",
-                    "feld_2": "Tiflis",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001795.38784,
-                            1
-                        ],
-                        [
-                            1449005082.728854,
-                            0
-                        ],
-                        [
-                            1449005097.268079,
-                            1
-                        ],
-                        [
-                            1449005539.804655,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Monaco",
-                    "feld_2": "Monaco-Stadt",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001777.588209,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "Hauptstadt ehemals „Christiania“",
-                    "feld_1": "Norwegen",
-                    "feld_2": "Oslo",
-                    "help": 0,
-                    "level": 3,
-                    "verlauf": [
-                        [
-                            1449001829.177099,
-                            1
-                        ],
-                        [
-                            1449005155.970982,
-                            1
-                        ],
-                        [
-                            1449005164.972198,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Kroatien",
-                    "feld_2": "Zagreb",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001773.376202,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Niederlande",
-                    "feld_2": "Amsterdam",
-                    "help": 0,
-                    "level": 2,
-                    "verlauf": [
-                        [
-                            1449001840.299918,
-                            1
-                        ],
-                        [
-                            1449001859.971553,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Vereinigtes Königreich",
-                    "feld_2": "London",
-                    "help": 0,
-                    "level": 2,
-                    "verlauf": [
-                        [
-                            1449001801.903452,
-                            1
-                        ],
-                        [
-                            1449001814.559873,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Tschechien",
-                    "feld_2": "Prag",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1448999347.833079,
-                            0
-                        ],
-                        [
-                            1449001826.634294,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Slowenien",
-                    "feld_2": "Ljubljana",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001799.865048,
-                            1
-                        ],
-                        [
-                            1449005388.646391,
-                            0
-                        ],
-                        [
-                            1449005530.83464,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Luxemburg",
-                    "feld_2": "Luxemburg",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001941.559696,
-                            1
-                        ],
-                        [
-                            1449005137.84375,
-                            0
-                        ],
-                        [
-                            1449005150.651373,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Bosnien und Herzegowina",
-                    "feld_2": "Sarajevo",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001844.449525,
-                            0
-                        ],
-                        [
-                            1449001864.10556,
-                            1
-                        ],
-                        [
-                            1449005086.62886,
-                            0
-                        ],
-                        [
-                            1449005104.132091,
-                            1
-                        ],
-                        [
-                            1449005368.288355,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Spanien",
-                    "feld_2": "Madrid",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001922.090862,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Belarus",
-                    "feld_2": "Minsk",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001812.59427,
-                            1
-                        ],
-                        [
-                            1449001824.49709,
-                            1
-                        ],
-                        [
-                            1449005373.015163,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Andorra",
-                    "feld_2": "Andorra la Vella",
-                    "help": 0,
-                    "level": 0,
-                    "verlauf": [
-                        [
-                            1449001899.970023,
-                            1
-                        ],
-                        [
-                            1449005494.096575,
-                            0
-                        ],
-                        [
-                            1449005539.102654,
-                            0
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Belgien",
                     "feld_2": "Brüssel",
                     "help": 0,
                     "level": 0,
-                    "verlauf": [
-                        [
-                            1448999351.280685,
-                            0
-                        ],
-                        [
-                            1449001886.210799,
-                            1
-                        ],
-                        [
-                            1449005531.20904,
-                            0
-                        ]
-                    ]
+                    "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
-                    "feld_1": "Liechtenstein",
-                    "feld_2": "Vaduz",
+                    "feld_1": "Bulgarien",
+                    "feld_2": "Sofia",
                     "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449001783.70342,
-                            1
-                        ]
-                    ]
+                    "level": 0,
+                    "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Dänemark",
+                    "feld_2": "Kopenhagen",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Deutschland",
+                    "feld_2": "Berlin",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Estland",
+                    "feld_2": "Tallin",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Finnland",
+                    "feld_2": "Helsinki",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Frankreich",
+                    "feld_2": "Paris",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Griechenland",
+                    "feld_2": "Athen",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Irland",
+                    "feld_2": "Dublin",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Italien",
+                    "feld_2": "Rom",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Kroatien",
+                    "feld_2": "Zagreb",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Lettland",
+                    "feld_2": "Riga",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Litauen",
+                    "feld_2": "Vilnius",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Luxemburg",
+                    "feld_2": "Luxemburg",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Malta",
+                    "feld_2": "Valletta",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Niederlande",
+                    "feld_2": "Amsterdam",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Österreich",
+                    "feld_2": "Wien",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Polen",
+                    "feld_2": "Warschau",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Portugal",
+                    "feld_2": "Lissabon",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Rumänien",
+                    "feld_2": "Bukarest",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Schweden",
                     "feld_2": "Stockholm",
                     "help": 0,
                     "level": 0,
-                    "verlauf": [
-                        [
-                            1449001935.350885,
-                            1
-                        ],
-                        [
-                            1449005179.074623,
-                            0
-                        ],
-                        [
-                            1449005183.41143,
-                            0
-                        ],
-                        [
-                            1449005531.583441,
-                            0
-                        ]
-                    ]
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Slowakei",
+                    "feld_2": "Bratislava",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Slowenien",
+                    "feld_2": "Ljubljana",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Spanien",
+                    "feld_2": "Madrid",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Tschechien",
+                    "feld_2": "Prag",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Ungarn",
+                    "feld_2": "Budapest",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Vereinigtes Königreich",
+                    "feld_2": "London",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Eigentlich Asien; wird traditionell zu Europa gezählt.",
+                    "feld_1": "Zypern",
+                    "feld_2": "Nikosia",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Albanien",
+                    "feld_2": "Tirana",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Andorra",
+                    "feld_2": "Andorra la Vella",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Nur zum kleinsten Teil in Europa (nördlich des Kaukasus)",
+                    "feld_1": "Aserbaidschan",
+                    "feld_2": "Baku",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Bosnien und Herzegowina",
+                    "feld_2": "Sarajevo",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Wird traditionell zu Europa gezählt; eigentlich höchstens Nordflanken des Kaukasus in Europa. ",
+                    "feld_1": "Georgien",
+                    "feld_2": "Tiflis",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Island",
+                    "feld_2": "Reykjavik",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Liechtenstein",
+                    "feld_2": "Vaduz",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Mazedonien",
+                    "feld_2": "Skopje",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        "Kischinau",
+                        "Kinschinew"
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Moldawien",
+                    "feld_2": "Chisinau",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Monaco",
+                    "feld_2": "Monaco",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Hauptstadt ehemals „Titograd“",
+                    "feld_1": "Montenegro",
+                    "feld_2": "Podgorica",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Hauptstadt ehemals „Christiania“",
+                    "feld_1": "Norwegen",
+                    "feld_2": "Oslo",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Nur teilweise in Europa; Hauptstadt in Europa.",
+                    "feld_1": "Russland",
+                    "feld_2": "Moskau",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "San Marino",
+                    "feld_2": "San Marino",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Schweiz",
+                    "feld_2": "Bern",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Serbien",
+                    "feld_2": "Belgrad",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Nur teilweise in Europa; Hauptstadt in Asien.",
+                    "feld_1": "Türkei",
+                    "feld_2": "Ankara",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Ukraine",
+                    "feld_2": "Kiew",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Nur zum kleinsten Teil in Europa; Hauptstadt in Asien.",
+                    "feld_1": "Kasachstan",
+                    "feld_2": "Astana",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Vatikanstadt",
+                    "feld_2": "Vatikanstadt",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Belarus",
+                    "feld_2": "Minsk",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        "Prishtina"
+                    ],
+                    "bemerkung": "Staat noch nicht gefestigt.",
+                    "feld_1": "Kosovo",
+                    "feld_2": "Pristina",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
                 }
             ],
             "name": "Europa"
@@ -954,144 +561,114 @@
         "subset": {
             "data": [
                 {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Mexiko",
-                    "feld_2": "Mexiko-Stadt",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1448998166.600605,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Kanada",
                     "feld_2": "Ottawa",
                     "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1448998169.25261,
-                            1
-                        ]
-                    ]
+                    "level": 0,
+                    "verlauf": []
                 },
                 {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Guatemala",
-                    "feld_2": "Guatemala-Stadt",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1448998173.542617,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Nicaragua",
-                    "feld_2": "Managua",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1448998176.537822,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "San Jose",
-                    "bemerkung": "",
-                    "feld_1": "Costa Rica",
-                    "feld_2": "San José",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1448998179.657828,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Panama",
-                    "feld_2": "Panama-Stadt",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1448998182.871433,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "Washington District of Columbia",
+                    "alt_2": [
+                        "Washington District of Columbia"
+                    ],
                     "bemerkung": "",
                     "feld_1": "Vereinigte Staaten von Amerika",
                     "feld_2": "Washington D.C.",
                     "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1448998187.925842,
-                            1
-                        ]
-                    ]
+                    "level": 0,
+                    "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Mexiko",
+                    "feld_2": "Mexiko-Stadt",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Belize",
                     "feld_2": "Belmopan",
                     "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1448998190.952248,
-                            1
-                        ]
-                    ]
+                    "level": 0,
+                    "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        "San Jose"
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Costa Rica",
+                    "feld_2": "San José",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "El Salvador",
                     "feld_2": "San Salvador",
                     "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1448998194.743054,
-                            1
-                        ]
-                    ]
+                    "level": 0,
+                    "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Guatemala",
+                    "feld_2": "Guatemala-Stadt",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Honduras",
                     "feld_2": "Tegucigalpa",
                     "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1448998200.733465,
-                            1
-                        ]
-                    ]
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Nicaragua",
+                    "feld_2": "Managua",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Panama",
+                    "feld_2": "Panama-Stadt",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
                 }
             ],
             "name": "Nordamerika"
@@ -1101,258 +678,147 @@
         "subset": {
             "data": [
                 {
-                    "alt_2": "St. John's",
+                    "alt_2": [
+                        "St. John's"
+                    ],
                     "bemerkung": "",
                     "feld_1": "Antigua und Barbuda",
                     "feld_2": "Saint John's",
                     "help": 0,
-                    "level": 2,
-                    "verlauf": [
-                        [
-                            1449005574.467916,
-                            0
-                        ],
-                        [
-                            1449005609.957979,
-                            1
-                        ],
-                        [
-                            1449005642.203235,
-                            1
-                        ]
-                    ]
+                    "level": 0,
+                    "verlauf": []
                 },
                 {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Dominica",
-                    "feld_2": "Roseau",
-                    "help": 0,
-                    "level": 3,
-                    "verlauf": [
-                        [
-                            1449005580.115126,
-                            1
-                        ],
-                        [
-                            1449005615.433588,
-                            1
-                        ],
-                        [
-                            1449005647.538445,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Haiti",
-                    "feld_2": "Port-au-Prince",
-                    "help": 0,
-                    "level": 3,
-                    "verlauf": [
-                        [
-                            1449005585.419135,
-                            1
-                        ],
-                        [
-                            1449005623.498802,
-                            1
-                        ],
-                        [
-                            1449005652.624054,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "St. Kitts und Nevis",
-                    "feld_2": "Basseterre",
-                    "help": 0,
-                    "level": 2,
-                    "verlauf": [
-                        [
-                            1449005591.799547,
-                            0
-                        ],
-                        [
-                            1449005628.475211,
-                            1
-                        ],
-                        [
-                            1449005656.11846,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "Eigentlich Südamerika; wird traditionell zu Nordamerika gezählt.",
-                    "feld_1": "Trinidad und Tobago",
-                    "feld_2": "Port of Spain",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449005604.295169,
-                            0
-                        ],
-                        [
-                            1449005634.824422,
-                            0
-                        ],
-                        [
-                            1449005661.016868,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Bahamas",
                     "feld_2": "Nassau",
                     "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449005665.774877,
-                            0
-                        ],
-                        [
-                            1449005686.522913,
-                            1
-                        ]
-                    ]
+                    "level": 0,
+                    "verlauf": []
                 },
                 {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Dominikanische Republik",
-                    "feld_2": "Santo Domingo",
-                    "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449005674.183291,
-                            0
-                        ],
-                        [
-                            1449005716.537366,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "Jamaika",
-                    "feld_2": "Kingston",
-                    "help": 0,
-                    "level": 2,
-                    "verlauf": [
-                        [
-                            1449005680.719703,
-                            1
-                        ],
-                        [
-                            1449005719.875772,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
-                    "bemerkung": "",
-                    "feld_1": "St. Lucia",
-                    "feld_2": "Castries",
-                    "help": 0,
-                    "level": 2,
-                    "verlauf": [
-                        [
-                            1449005683.543308,
-                            1
-                        ],
-                        [
-                            1449005722.122176,
-                            1
-                        ]
-                    ]
-                },
-                {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Barbados",
                     "feld_2": "Bridgetown",
                     "help": 0,
-                    "level": 2,
-                    "verlauf": [
-                        [
-                            1449005728.658587,
-                            1
-                        ],
-                        [
-                            1449005744.929416,
-                            1
-                        ]
-                    ]
+                    "level": 0,
+                    "verlauf": []
                 },
                 {
-                    "alt_2": "Saint George's",
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Dominica",
+                    "feld_2": "Roseau",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Dominikanische Republik",
+                    "feld_2": "Santo Domingo",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        "Saint George's"
+                    ],
                     "bemerkung": "",
                     "feld_1": "Grenada",
                     "feld_2": "St. George's",
                     "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449005732.730194,
-                            0
-                        ],
-                        [
-                            1449005751.325427,
-                            1
-                        ]
-                    ]
+                    "level": 0,
+                    "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Haiti",
+                    "feld_2": "Port-au-Prince",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Jamaika",
+                    "feld_2": "Kingston",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Kuba",
                     "feld_2": "Havanna",
                     "help": 0,
-                    "level": 2,
-                    "verlauf": [
-                        [
-                            1449005736.848601,
-                            1
-                        ],
-                        [
-                            1449005753.727831,
-                            1
-                        ]
-                    ]
+                    "level": 0,
+                    "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "St. Kitts und Nevis",
+                    "feld_2": "Basseterre",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "St. Lucia",
+                    "feld_2": "Castries",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "St. Vincent und die Grenadinen",
                     "feld_2": "Kingstown",
                     "help": 0,
-                    "level": 1,
-                    "verlauf": [
-                        [
-                            1449005739.750207,
-                            0
-                        ],
-                        [
-                            1449005757.815038,
-                            1
-                        ]
-                    ]
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Eigentlich Südamerika; wird traditionell zu Nordamerika gezählt.",
+                    "feld_1": "Trinidad und Tobago",
+                    "feld_2": "Port of Spain",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
                 }
             ],
             "name": "Karibik"
@@ -1362,7 +828,9 @@
         "subset": {
             "data": [
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Argentinien",
                     "feld_2": "Buenos Aires",
@@ -1371,7 +839,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Bolivien",
                     "feld_2": "Sucre",
@@ -1380,7 +850,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Brasilien",
                     "feld_2": "Brasilia",
@@ -1389,7 +861,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Chile",
                     "feld_2": "Santiago de Chile",
@@ -1398,7 +872,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Ecuador",
                     "feld_2": "Quito",
@@ -1407,7 +883,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Guyana",
                     "feld_2": "Georgetown",
@@ -1416,7 +894,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Kolumbien",
                     "feld_2": "Bogota",
@@ -1425,7 +905,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Paraguay",
                     "feld_2": "Asuncion",
@@ -1434,7 +916,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Peru",
                     "feld_2": "Lima",
@@ -1443,7 +927,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Suriname",
                     "feld_2": "Paramaribo",
@@ -1452,7 +938,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Uruguay",
                     "feld_2": "Montevideo",
@@ -1461,7 +949,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Venezuela",
                     "feld_2": "Caracas",
@@ -1477,7 +967,9 @@
         "subset": {
             "data": [
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Ägypten",
                     "feld_2": "Kairo",
@@ -1486,7 +978,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Algerien",
                     "feld_2": "Algier",
@@ -1495,7 +989,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Angola",
                     "feld_2": "Luanda",
@@ -1504,7 +1000,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Äquatorialguinea",
                     "feld_2": "Malabo",
@@ -1513,7 +1011,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Äthiopien",
                     "feld_2": "Addis Abeba",
@@ -1522,7 +1022,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Benin",
                     "feld_2": "Porto Novo",
@@ -1531,7 +1033,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Botswana",
                     "feld_2": "Gabarone",
@@ -1540,7 +1044,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Burkina Faso",
                     "feld_2": "Ouagadougou",
@@ -1549,7 +1055,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Burundi",
                     "feld_2": "Bujumbura",
@@ -1558,7 +1066,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Dschibuti",
                     "feld_2": "Dschibuti-Stadt",
@@ -1567,7 +1077,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "Jamussukro",
+                    "alt_2": [
+                        "Jamussukro"
+                    ],
                     "bemerkung": "",
                     "feld_1": "Côte d'Ivoire",
                     "feld_2": "Yamoussoukro",
@@ -1576,7 +1088,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Eritrea",
                     "feld_2": "Asmara",
@@ -1585,7 +1099,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Gabun",
                     "feld_2": "Libreville",
@@ -1594,7 +1110,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Gambia",
                     "feld_2": "Banjul",
@@ -1603,7 +1121,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Ghana",
                     "feld_2": "Accra",
@@ -1612,7 +1132,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Guinea",
                     "feld_2": "Conakry",
@@ -1621,7 +1143,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Guinea-Bissau",
                     "feld_2": "Bissau",
@@ -1630,7 +1154,10 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        "Yaounde",
+                        "Jaunde"
+                    ],
                     "bemerkung": "",
                     "feld_1": "Kamerun",
                     "feld_2": "Yaoundé",
@@ -1639,7 +1166,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Kap Verde",
                     "feld_2": "Praia",
@@ -1648,7 +1177,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Kenia",
                     "feld_2": "Nairobi",
@@ -1657,7 +1188,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Komoren",
                     "feld_2": "Moroni",
@@ -1666,7 +1199,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Demokratische Republik Kongo",
                     "feld_2": "Kinshasa",
@@ -1675,7 +1210,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Republik Kongo",
                     "feld_2": "Brazzaville",
@@ -1684,7 +1221,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Lesotho",
                     "feld_2": "Maseru",
@@ -1693,7 +1232,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Liberia",
                     "feld_2": "Monrovia",
@@ -1702,7 +1243,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Libyen",
                     "feld_2": "Tripolis",
@@ -1711,7 +1254,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Madagaskar",
                     "feld_2": "Antananarivo",
@@ -1720,7 +1265,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Malawi",
                     "feld_2": "Lilongwe",
@@ -1729,7 +1276,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Mali",
                     "feld_2": "Bamako",
@@ -1738,7 +1287,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Marokko",
                     "feld_2": "Rabat",
@@ -1747,7 +1298,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        "Nuakschott"
+                    ],
                     "bemerkung": "",
                     "feld_1": "Mauretanien",
                     "feld_2": "Nouakchott",
@@ -1756,7 +1309,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Mauritius",
                     "feld_2": "Port Louis",
@@ -1765,7 +1320,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Mosambik",
                     "feld_2": "Maputo",
@@ -1774,7 +1331,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Namibia",
                     "feld_2": "Windhoek",
@@ -1783,7 +1342,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Niger",
                     "feld_2": "Niamey",
@@ -1792,7 +1353,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Nigeria",
                     "feld_2": "Abuja",
@@ -1801,7 +1364,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Ruanda",
                     "feld_2": "Kigali",
@@ -1810,7 +1375,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Sambia",
                     "feld_2": "Lusaka",
@@ -1819,7 +1386,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "Sao Tome",
+                    "alt_2": [
+                        "Sao Tome"
+                    ],
                     "bemerkung": "",
                     "feld_1": "São Tomé und Principe",
                     "feld_2": "São Tomé",
@@ -1828,7 +1397,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Senegal",
                     "feld_2": "Dakar",
@@ -1837,7 +1408,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Seychellen",
                     "feld_2": "Victoria",
@@ -1846,7 +1419,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Sierra Leone",
                     "feld_2": "Freetown",
@@ -1855,7 +1430,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Simbabwe",
                     "feld_2": "Harare",
@@ -1864,7 +1441,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Südafrika",
                     "feld_2": "Pretoria",
@@ -1873,7 +1452,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Sudan",
                     "feld_2": "Khartum",
@@ -1882,7 +1463,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Südsudan",
                     "feld_2": "Juba",
@@ -1891,7 +1474,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Swasiland",
                     "feld_2": "Mbabane",
@@ -1900,7 +1485,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Tansania",
                     "feld_2": "Dodoma",
@@ -1909,7 +1496,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "Lome",
+                    "alt_2": [
+                        "Lome"
+                    ],
                     "bemerkung": "",
                     "feld_1": "Togo",
                     "feld_2": "Lomé",
@@ -1918,7 +1507,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Tschad",
                     "feld_2": "N'Djamena",
@@ -1927,7 +1518,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Tunesien",
                     "feld_2": "Tunis",
@@ -1936,7 +1529,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Uganda",
                     "feld_2": "Kampala",
@@ -1945,8 +1540,10 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
-                    "bemerkung": "",
+                    "alt_2": [
+                        "Ajun"
+                    ],
+                    "bemerkung": "Von Marokko besetzt.",
                     "feld_1": "Westsahara",
                     "feld_2": "El Aaiun",
                     "help": 0,
@@ -1954,7 +1551,9 @@
                     "verlauf": []
                 },
                 {
-                    "alt_2": "",
+                    "alt_2": [
+                        ""
+                    ],
                     "bemerkung": "",
                     "feld_1": "Zentralafrikanische Republik",
                     "feld_2": "Bangui",
@@ -1964,6 +1563,563 @@
                 }
             ],
             "name": "Afrika"
+        }
+    },
+    {
+        "subset": {
+            "data": [
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Mongolei",
+                    "feld_2": "Ulaanbaatar",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Nur teilweise in Asien; Hauptstadt in Europa.",
+                    "feld_1": "Russland",
+                    "feld_2": "Moskau",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Volksrepublik China",
+                    "feld_2": "Peking",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Taiwan",
+                    "feld_2": "Taipeh",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Japan",
+                    "feld_2": "Tokio",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Nordkorea",
+                    "feld_2": "Pjöngjang",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Südkorea",
+                    "feld_2": "Seoul",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Bangladesch",
+                    "feld_2": "Dhaka",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Bhutan",
+                    "feld_2": "Thimphu",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        "Neu-Delhi"
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Indien",
+                    "feld_2": "New-Delhi",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        "Male"
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Malediven",
+                    "feld_2": "Malé",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Nepal",
+                    "feld_2": "Kathmandu",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Pakistan",
+                    "feld_2": "Islamabad",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Sri Lanka",
+                    "feld_2": "Colombo",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Brunei",
+                    "feld_2": "Bandar Seri Begawan",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Indonesien",
+                    "feld_2": "Jakarta",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Kambodscha",
+                    "feld_2": "Phnom Penh",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Laos",
+                    "feld_2": "Vientiane",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Malaysia",
+                    "feld_2": "Kuala Lumpur",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Myanmar",
+                    "feld_2": "Naypyidaw",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Philippinen",
+                    "feld_2": "Manila",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Singapur",
+                    "feld_2": "Singapur",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Thailand",
+                    "feld_2": "Bangkok",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Osttimor",
+                    "feld_2": "Dili",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Vietnam",
+                    "feld_2": "Hanoi",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Nur zum kleinsten Teil in Asien (Sinai); Hauptstadt in Afrika.",
+                    "feld_1": "Ägypten",
+                    "feld_2": "Kairo",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        "Eriwan"
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Armenien",
+                    "feld_2": "Jerewan",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Aserbaidschan",
+                    "feld_2": "Baku",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Bahrain",
+                    "feld_2": "Manama",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Georgien",
+                    "feld_2": "Tiflis",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Irak",
+                    "feld_2": "Bagdad",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Iran",
+                    "feld_2": "Teheran",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Israel",
+                    "feld_2": "Jerusalem",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Jemen",
+                    "feld_2": "Sanaa",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Jordanien",
+                    "feld_2": "Amman",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Katar",
+                    "feld_2": "Doha",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Kuwait",
+                    "feld_2": "Kuwait-Stadt",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Libanon",
+                    "feld_2": "Beirut",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Oman",
+                    "feld_2": "Maskat",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Saudi-Arabien",
+                    "feld_2": "Riad",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Syrien",
+                    "feld_2": "Damaskus",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Auch mit Landesteil in Europa; Hauptstadt in Asien.",
+                    "feld_1": "Türkei",
+                    "feld_2": "Ankara",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Vereinigte Arabische Emirate",
+                    "feld_2": "Abu Dhabi",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Wird traditionell zu Europa gezählt.",
+                    "feld_1": "Zypern",
+                    "feld_2": "Nikosia",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Afghanistan",
+                    "feld_2": "Kabul",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "Auch mit Landesteil in Europa; Hauptstadt in Asien.",
+                    "feld_1": "Kasachstan",
+                    "feld_2": "Astana",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Kirgistan",
+                    "feld_2": "Bischkek",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Tadschikistan",
+                    "feld_2": "Duschanbe",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Turkmenistan",
+                    "feld_2": "Asgabat",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                },
+                {
+                    "alt_2": [
+                        ""
+                    ],
+                    "bemerkung": "",
+                    "feld_1": "Usbekistan",
+                    "feld_2": "Taschkent",
+                    "help": 0,
+                    "level": 0,
+                    "verlauf": []
+                }
+            ],
+            "name": "Asien"
         }
     }
 ]
