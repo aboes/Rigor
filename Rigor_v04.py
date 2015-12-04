@@ -309,7 +309,8 @@ class QuizPage(tk.Frame):
         ua = self.useranswer.get()
         ka = self.korpus[self.qnum]["feld_2"]
         al = self.korpus[self.qnum]["alt_2"]
-        print(al)
+        if al != "": print(al)
+        
         answ = self.check(ua, ka, al)
         if answ:
             self.response.set(self.korpus[self.qnum]["feld_2"] + " ist richtig!")
@@ -318,8 +319,9 @@ class QuizPage(tk.Frame):
             self.korpus[self.qnum]["verlauf"].append( [time(), 1] )
         else:
             if self.modus == "2":
-                self.useranswer.set(self.korpus[self.qnum]["feld_2"])
-                self.response.set("so wärs richtig")
+                # self.useranswer.set(self.korpus[self.qnum]["feld_2"])
+                self.entry_answ.config(state=tk.DISABLED)
+                self.response.set("so wärs richtig: " + self.korpus[self.qnum]["feld_2"])
             else:
                 self.response.set(ua + " ist falsch :-(")
             
@@ -340,6 +342,7 @@ class QuizPage(tk.Frame):
             self.anschauenMode()
         elif switch == "2":
             # Patience
+            self.entry_answ.config(state=tk.NORMAL)
             self.patienceMode()
         elif switch == "3":
             # Gruppiert
