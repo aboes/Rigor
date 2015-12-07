@@ -200,9 +200,22 @@ class QuizPage(tk.Frame):
         self.state = ""
         self.symbol_count = 0
 
+        frame_head = tk.Frame(self)
+        frame_head.pack(padx=50, pady=5)
+        
         self.titel = tk.StringVar()
-        label = Label(self, textvariable=self.titel, font=LARGE_FONT)
-        label.pack(pady=10, padx=10)
+        label = Label(frame_head, textvariable=self.titel, font=LARGE_FONT)
+        label.pack(side=tk.LEFT, padx = 50)
+        self.lab_correct = Label(frame_head, text="Richtig: ", font=SMALL_FONT)
+        self.lab_correct.pack(side=tk.LEFT)
+        self.uppoints = tk.StringVar()
+        self.disp_correct = Label(frame_head, textvariable=self.uppoints, font=SMALL_FONT)
+        self.disp_correct.pack(side=tk.LEFT)
+        self.lab_wrong = Label(frame_head, text=" Falsch: ", font=SMALL_FONT)
+        self.lab_wrong.pack(side=tk.LEFT)
+        self.downpoints = tk.StringVar()
+        self.disp_wrong = Label(frame_head, textvariable=self.downpoints, font=SMALL_FONT)
+        self.disp_wrong.pack(side=tk.LEFT)
 
         self.question = tk.StringVar()
         label_disp = Label(self, textvariable=self.question, font=LARGE_FONT)
@@ -285,14 +298,22 @@ class QuizPage(tk.Frame):
         if self.options[3] == 1:
             answ1 = uinput == solution
             if alternative[0] != "":
-                answ2 = uinput in alternative
                 # alternative ist eine Liste. Prüfung: Ist Antwort in Liste vorhanden?
+                answ2 = uinput in alternative
             else:
                 answ2 = False
             answ = answ1 or answ2
         else:
             answ = uinput == solution
 
+        up = int(self.uppoints.get())
+        down = int(self.downpoints.get())
+        if answ:
+            up += 1
+            self.uppoints.set(up)
+        else:
+            down += 1
+            self.downpoints.set(down)
         return answ
 
     def checkanswer(self):
@@ -418,8 +439,8 @@ class QuizPage(tk.Frame):
         savefile(fname, korpus)
 
     def save_patience(self):
+        # Listcomprehension um self.patience zu flatten:
         self.korpus = [item for sublist in self.patience for item in sublist]
-        # Listcomprehension um self.patience zu flatten
         self.save_korpus()
 
     def checkkey(self, event):
@@ -455,6 +476,8 @@ class QuizPage(tk.Frame):
             self.korpus = self.patience[0]
             self.question.set(self.korpus[0]["feld_1"])
             self.bemerkung.set(self.korpus[0]["bemerkung"])
+            self.uppoints.set(0)
+            self.downpoints.set(0)
         else:
             txt = "Modus noch nicht implementiert!"
             self.useranswer.set(txt)
