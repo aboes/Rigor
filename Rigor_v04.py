@@ -202,20 +202,25 @@ class QuizPage(tk.Frame):
 
         frame_head = tk.Frame(self)
         frame_head.pack(padx=50, pady=5)
-        
+
         self.titel = tk.StringVar()
         label = Label(frame_head, textvariable=self.titel, font=LARGE_FONT)
-        label.pack(side=tk.LEFT, padx = 50)
-        self.lab_correct = Label(frame_head, text="Richtig: ", font=SMALL_FONT)
+        label.pack(side=tk.LEFT, padx=50)
+        self.lab_correct = Label(frame_head, text="Richtig ", font=SMALL_FONT)
         self.lab_correct.pack(side=tk.LEFT)
         self.uppoints = tk.StringVar()
         self.disp_correct = Label(frame_head, textvariable=self.uppoints, font=SMALL_FONT)
         self.disp_correct.pack(side=tk.LEFT)
-        self.lab_wrong = Label(frame_head, text=" Falsch: ", font=SMALL_FONT)
+        self.lab_wrong = Label(frame_head, text=" Falsch ", font=SMALL_FONT)
         self.lab_wrong.pack(side=tk.LEFT)
         self.downpoints = tk.StringVar()
         self.disp_wrong = Label(frame_head, textvariable=self.downpoints, font=SMALL_FONT)
         self.disp_wrong.pack(side=tk.LEFT)
+        self.lab_total = Label(frame_head, text=" Alle ", font=SMALL_FONT)
+        self.lab_total.pack(side=tk.LEFT)
+        self.totalentries = tk.StringVar()
+        self.disp_total = Label(frame_head, textvariable=self.totalentries, font=SMALL_FONT)
+        self.disp_total.pack(side=tk.LEFT)
 
         self.question = tk.StringVar()
         label_disp = Label(self, textvariable=self.question, font=LARGE_FONT)
@@ -478,6 +483,7 @@ class QuizPage(tk.Frame):
             self.bemerkung.set(self.korpus[0]["bemerkung"])
             self.uppoints.set(0)
             self.downpoints.set(0)
+            self.totalentries.set(self.k_len)
         else:
             txt = "Modus noch nicht implementiert!"
             self.useranswer.set(txt)
