@@ -36,15 +36,14 @@ def savefile(filename, data):
         file.write(output)
 
 def get_options():
-    """Gibt die aktuell gewählten Optionen zurück (von File)."""
     rawread = readfile("varia/options.opt")
     return loads(rawread)
 
 def get_korpus(self, topic, subset):
-    """Liest aus File den gewählten Korpus. Setzt auch gleich die Länge."""
     rawread = readfile("data/" + topic + ".korp")
     kall = loads(rawread)
     for ele in kall:
         if ele["subset"]["name"] == subset:
             self.korpus = ele["subset"]["data"]
     self.korpus_len = len(self.korpus)
+    

@@ -60,7 +60,6 @@ class Anschauen(GL.Frame):
         but_home.pack()
 
     def next(self):
-        """Funktionalität des Weiter-Buttons."""
         if self.state == "show":
             self.answer.set(self.korpus[self.qnum]["feld_2"])
             self.state = "next"
@@ -75,8 +74,6 @@ class Anschauen(GL.Frame):
             self.state = "show"
 
     def back(self):
-        """Funktionalität des Zurück-Buttons."""
-        # TODO: Umkehrung der Frage-Antwort Reihenfolge!
         if self.state == "next":
             self.answer.set("")
             self.remark.set(self.korpus[self.qnum]["bemerkung"])
@@ -92,7 +89,6 @@ class Anschauen(GL.Frame):
             self.state = "next"
 
     def submit_topic(self, topic, subtopic):
-        """Funktion um über die Klasse das Thema und Subthema zu übergeben."""
         self.topic = topic
         self.subtopic = subtopic
 
