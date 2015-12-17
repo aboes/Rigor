@@ -18,8 +18,8 @@ class Patience(GL.Frame):
         self.pgroup = 0
         self.pgnum = 0
         self.options = []
-        self.up = 0
-        self.down = 0
+        self.richtige = 0
+        self.falsche = 0
         self.snum = 0
         self.hnum = 0
 
@@ -67,7 +67,7 @@ class Patience(GL.Frame):
 
         buttongroup = GL.Frame(self)
         self.but_help = GL.Button(buttongroup, text="Hilfe",
-                             command=self.hit_help)
+                                  command=self.hit_help)
         self.but_help.pack(side=GL.LEFT)
         self.but_enter = GL.Button(buttongroup, text="Enter",
                                    width=17,
@@ -78,7 +78,7 @@ class Patience(GL.Frame):
         self.but_next.pack(side=GL.LEFT)
         buttongroup.pack(padx=10, pady=(25, 2))
 
-        self.indicator = GL.Label(self, background=GL.COL_NEUTRAL)
+        self.indicator = GL.Label(self, background=GL.COL_B3)
         self.indicator.pack(side=GL.BOTTOM, fill=GL.X, ipady=10)
 
         self.disp_answer.bind("<Return>", self.return_key)
@@ -86,23 +86,25 @@ class Patience(GL.Frame):
         self.but_help.bind("<Return>", self.give_help)
 
     def give_help(self, event):
+        """Krücke um die Tastenbindung zur Hilfefunktion auszulösen."""
         self.hit_help()
 
     def hit_help(self):
+        """Funktionalität der Hilfefunktion. Gesteuert durch gewählte Optionen."""
         self.hnum += 1
         if self.options[1] == 0 and self.options[2] == 1:
             self.hnum += 1
-        lösung = self.patience[self.pgroup][self.pgnum]["feld_2"]
-        first_letter = lösung[0]
+        solution = self.patience[self.pgroup][self.pgnum]["feld_2"]
+        first_letter = solution[0]
         if self.hnum == 1 and self.options[1] == 1:
             self.useranswer.set(first_letter)
             self.disp_answer.icursor(1)
         elif self.hnum == 2 and self.options[2] == 1:
             self.hnum = 0
-            hlen = len(lösung)
-            lösung = lösung.split()
+            hlen = len(solution)
+            solution = solution.split()
             ldot = []
-            for ele in lösung:
+            for ele in solution:
                 ele = "*" * len(ele)
                 ldot.append(ele)
             dots = " ".join(ldot)
@@ -116,6 +118,7 @@ class Patience(GL.Frame):
         self.disp_answer.focus_set()
 
     def return_key(self, event):
+        """Krücke um die Tastenbindung zu Enter und Weiter auszulösen."""
         state = str(self.but_enter["state"])
         if state == GL.NORMAL:
             self.hit_enter()
@@ -123,6 +126,7 @@ class Patience(GL.Frame):
             self.hit_next()
 
     def check_answer(self, uinput, solution, alternative):
+        """Urteilt über Korrektheit der Antwort. Optionen werden einbezogen."""
         if self.options[0] == 1:
             uinput = uinput.lower()
             solution = solution.lower()
@@ -141,6 +145,7 @@ class Patience(GL.Frame):
         return answ
 
     def hit_enter(self):
+        """Funktionalität des Enter-Button. Regelt diverse Anzeigen."""
         self.but_enter.configure(state=GL.DISABLED)
         self.but_next.configure(state=GL.NORMAL)
 
@@ -162,29 +167,30 @@ class Patience(GL.Frame):
             self.disp_answer.configure(foreground=GL.COL_CORRECT)
             self.indicator.configure(background=GL.COL_CORRECT)
             self.patience[self.pgroup][self.pgnum]["verlauf"].append([GL.time(), 1])
-            self.up += 1
+            self.richtige += 1
         else:
             self.disp_answer.configure(foreground=GL.COL_FALSE)
             self.response.set("✘   ☛ " + solution)
             self.indicator.configure(background=GL.COL_FALSE)
             self.disp_answer.configure(state=GL.DISABLED)
             self.patience[self.pgroup][self.pgnum]["verlauf"].append([GL.time(), 0])
-            self.down += 1
+            self.falsche += 1
             self.snum += 1
             symbol = "✖" * self.snum
             self.symbol_indicator.set(symbol)
 
-        self.qcounter.set("R " + str(self.up) + " | F " + str(self.down) +
+        self.qcounter.set("R " + str(self.richtige) + " | F " + str(self.falsche) +
                           " | T " + str(self.korpus_len))
         self.but_enter.focus_set()
 
     def hit_next(self):
+        """Funktionalität des Next-Button."""
         self.disp_answer.configure(foreground=GL.COL_B2, state=GL.NORMAL)
         self.but_next.configure(state=GL.DISABLED)
         self.but_enter.configure(state=GL.NORMAL)
         self.useranswer.set("")
         self.response.set("")
-        self.indicator.configure(background=GL.COL_NEUTRAL)
+        self.indicator.configure(background=GL.COL_B3)
         self.hnum = 0
 
         if self.pgnum < (self.pgrp_len - 1):            # Subliste schon durch?
@@ -217,6 +223,7 @@ class Patience(GL.Frame):
         self.disp_answer.focus_set()
 
     def save_patience(self):
+        """Speichert gezielt das benutzte Subthema."""
         self.korpus = [item for sublist in self.patience for item in sublist]
 
         fname = "data/" + self.topic + ".korp"
@@ -230,6 +237,7 @@ class Patience(GL.Frame):
         GL.savefile(fname, korpus)
 
     def submit_topic(self, topic, subtopic):
+        """Funktion um über die Klasse das Thema und Subthema zu übergeben."""
         self.topic = topic
         self.subtopic = subtopic
         self.options = GL.get_options()
@@ -237,8 +245,8 @@ class Patience(GL.Frame):
         self.grps = 0
         self.pgroup = 0
         self.pgnum = 0
-        self.up = 0
-        self.down = 0
+        self.richtige = 0
+        self.falsche = 0
         self.snum = 0
 
         GL.get_korpus(self, self.topic, self.subtopic)

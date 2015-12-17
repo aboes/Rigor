@@ -20,8 +20,8 @@ class StartPage(GL.Frame):
             break
         korp_name = []
         for name in korp_file:
-            p = name.find(".")
-            korp_name.append(name[:p])
+            element = name.find(".")
+            korp_name.append(name[:element])
 
         opmenugroup = GL.Frame(self)
         themen = korp_name
@@ -35,6 +35,7 @@ class StartPage(GL.Frame):
         opt_subset = GL.StringVar()
 
         def update_subset(self, *args):
+            """Befüllt das Subset-Dropdown, abhängig vom gewählten Thema."""
             opmenu_subset["menu"].delete(0, "end")
             fname = "data/" + opt_theme.get() + ".korp"
             rawread = GL.readfile(fname)
@@ -55,6 +56,7 @@ class StartPage(GL.Frame):
         opmenugroup.pack(side=GL.TOP, padx=10, pady=5)
 
         def enable_start(self, *args):
+            """Wenn Startbereit wird der Start-Button freigegeben."""
             but_start.configure(state=GL.NORMAL)
 
         opt_theme.trace("w", update_subset)
@@ -79,14 +81,20 @@ class StartPage(GL.Frame):
         but_start.pack(side=GL.LEFT)
         buttongroup.pack(padx=10, pady=(34, 25))
 
-    def start_quiz(self, topic, subtopic):
-        t = topic.get()
-        s = subtopic.get()
 
-        m = self.opt_modes.get()
-        if m == 1:
+        lab_author = GL.Label(self, text="✿ Alex Bösch, Dez 2015 ✿",
+                              foreground=GL.COL_B2, font=GL.SMALL_FONT)
+        lab_author.pack()
+
+    def start_quiz(self, topic, subtopic):
+        """Startet den gewählten Modus und übergibt Thema und Subthema."""
+        top = topic.get()
+        subt = subtopic.get()
+
+        mod = self.opt_modes.get()
+        if mod == 1:
             self.controller.show_frame("Anschauen")
-            self.controller.frames["Anschauen"].submit_topic(t, s)
-        elif m == 2:
+            self.controller.frames["Anschauen"].submit_topic(top, subt)
+        elif mod == 2:
             self.controller.show_frame("Patience")
-            self.controller.frames["Patience"].submit_topic(t, s)
+            self.controller.frames["Patience"].submit_topic(top, subt)

@@ -73,7 +73,8 @@ class OptionPage(GL.Frame):
             self.var_hilfe2.get(),
             self.var_alternative.get(),
             self.var_bemerkungen.get(),
-            self.var_time.get()
-            ]
+            self.var_hilfe3.get(),
+            self.var_time.get()]
+
         GL.savefile("varia/options.opt", self.options)
         self.controller.show_frame("StartPage")
